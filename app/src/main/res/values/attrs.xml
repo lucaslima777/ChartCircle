@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartCircle">
+
+        <attr name="lln_orientation" format="enum">
+            <enum name="clockwise" value="0"/>
+            <enum name="counter_clockwise" value="1"/>
+        </attr>
+        <attr name="lln_startAngle" format="integer"/>
+        <attr name="lln_mode" format="enum">
+            <enum name="ring" value="0"/>
+            <enum name="pie" value="1"/>
+        </attr>
+        <attr name="lln_backgroundColor" format="color|reference"/>
+        <attr name="lln_backgroundWidth" format="dimension"/>
+        <attr name="lln_fillBackground" format="boolean"/>
+        <attr name="lln_fillBackgroundColor" format="color|reference"/>
+
+        <attr name="lln_progress" format="integer"/>
+        <attr name="lln_percentageColor" format="color|reference"/>
+        <attr name="lln_percentageWidth" format="dimension"/>
+        <attr name="lln_percentageStyle" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="square" value="1"/>
+        </attr>
+
+        <attr name="lln_textColor" format="color|reference"/>
+        <attr name="lln_textSize" format="dimension"/>
+        <attr name="lln_typeface" format="string"/>
+        <attr name="lln_textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <attr name="lln_animDuration" format="integer"/>
+        <attr name="lln_animInterpolator" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="accelerate" value="1"/>
+            <enum name="decelerate" value="2"/>
+            <enum name="accelerate_decelerate" value="3"/>
+            <enum name="anticipate" value="4"/>
+            <enum name="overshoot" value="5"/>
+            <enum name="anticipate_overshoot" value="6"/>
+            <enum name="bounce" value="7"/>
+            <enum name="fast_out_linear_in" value="8"/>
+            <enum name="fast_out_slow_in" value="9"/>
+            <enum name="linear_out_slow_in" value="10"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

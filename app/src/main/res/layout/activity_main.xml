@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <chart.circle.lln.ChartCircle
+            android:id="@+id/chartCircle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:pcv_animDuration="1000"
+            app:pcv_animInterpolator="accelerate_decelerate"
+            app:pcv_backgroundColor="@color/gray"
+            app:pcv_backgroundWidth="30dp"
+            app:pcv_fillBackground="true"
+            app:pcv_fillBackgroundColor="@android:color/white"
+            app:pcv_mode="ring"
+            app:pcv_percentageColor="#0ffff0"
+            app:pcv_percentageStyle="round"
+            app:pcv_percentageWidth="20dp"
+            app:pcv_startAngle="90"
+            app:pcv_textColor="#707070"
+            app:pcv_textSize="40sp"
+            app:pcv_textStyle="bold"
+            app:pcv_typeface="robotoregular.ttf" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
